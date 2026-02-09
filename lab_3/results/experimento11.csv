@@ -1,0 +1,39 @@
+run,type,module,name,attrname,attrvalue,value
+General-0-20240513-12:57:38-77679,runattr,,,configname,General,
+General-0-20240513-12:57:38-77679,runattr,,,datetime,20240513-12:57:38,
+General-0-20240513-12:57:38-77679,runattr,,,datetimef,20240513-125738,
+General-0-20240513-12:57:38-77679,runattr,,,experiment,General,
+General-0-20240513-12:57:38-77679,runattr,,,inifile,omnetpp.ini,
+General-0-20240513-12:57:38-77679,runattr,,,iterationvars,,
+General-0-20240513-12:57:38-77679,runattr,,,iterationvarsd,,
+General-0-20240513-12:57:38-77679,runattr,,,iterationvarsf,,
+General-0-20240513-12:57:38-77679,runattr,,,measurement,,
+General-0-20240513-12:57:38-77679,runattr,,,network,Network,
+General-0-20240513-12:57:38-77679,runattr,,,processid,77679,
+General-0-20240513-12:57:38-77679,runattr,,,repetition,0,
+General-0-20240513-12:57:38-77679,runattr,,,replication,#0,
+General-0-20240513-12:57:38-77679,runattr,,,resultdir,results,
+General-0-20240513-12:57:38-77679,runattr,,,runnumber,0,
+General-0-20240513-12:57:38-77679,runattr,,,seedset,0,
+General-0-20240513-12:57:38-77679,config,,,network,Network,
+General-0-20240513-12:57:38-77679,config,,,sim-time-limit,200s,
+General-0-20240513-12:57:38-77679,config,,,Network.nodeTx.gen.generationInterval,exponential(0.1),
+General-0-20240513-12:57:38-77679,config,,,Network.nodeTx.gen.packetByteSize,12500,
+General-0-20240513-12:57:38-77679,config,,,Network.queue0.bufferSize,100,
+General-0-20240513-12:57:38-77679,config,,,Network.queue1.bufferSize,200,
+General-0-20240513-12:57:38-77679,config,,,Network.nodeRx.traRx.bufferSize,200,
+General-0-20240513-12:57:38-77679,config,,,Network.nodeTx.traTx.bufferSize,20000000,
+General-0-20240513-12:57:38-77679,config,,,Network.queue0.serviceTime,exponential(0.001),
+General-0-20240513-12:57:38-77679,config,,,Network.queue1.serviceTime,exponential(0.001),
+General-0-20240513-12:57:38-77679,scalar,Network.nodeTx.gen,Packets generated,,,1979
+General-0-20240513-12:57:38-77679,scalar,Network.nodeTx.traTx,Sent packets,,,1148
+General-0-20240513-12:57:38-77679,scalar,Network.nodeTx.traTx,Final buffer size,,,831
+General-0-20240513-12:57:38-77679,scalar,Network.queue0,Packets dropped,,,0
+General-0-20240513-12:57:38-77679,scalar,Network.queue0,Final buffer size,,,0
+General-0-20240513-12:57:38-77679,scalar,Network.queue1,Packets dropped,,,0
+General-0-20240513-12:57:38-77679,scalar,Network.queue1,Final buffer size,,,0
+General-0-20240513-12:57:38-77679,scalar,Network.nodeRx.sink,Avg delay,,,49.741569311069
+General-0-20240513-12:57:38-77679,scalar,Network.nodeRx.sink,Delay count,,,998
+General-0-20240513-12:57:38-77679,scalar,Network.nodeRx.sink,Delivered Packets,,,998
+General-0-20240513-12:57:38-77679,scalar,Network.nodeRx.traRx,Packets dropped,,,0
+General-0-20240513-12:57:38-77679,scalar,Network.nodeRx.traRx,Final buffer size,,,148
